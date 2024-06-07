@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-color: rgba(99, 153, 155, 0.748);
+}
+.weatherTemplate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 6px 6px 6px rgb(3, 3, 3);
+    margin: 10%;
+    background-image: url("w1.jpg");
+    background-size: cover;
+    color: white;
+}
+input{
+    outline: none;
+    border-bottom: 4px solid black;
+    border-radius: 18px;
+    padding: 10px 25px;
+    font-size: larger;
+    font-family: monospace;
+    color: slategrey;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+button{
+    padding: 8px ;
+    border-radius: 10px ;
+   margin: 6px;
+}
+.logoTem span{
+    font-size: 3rem;
+    color: yellow;
+    margin: 10px;
+}
+.tem{
+    font-size: 4rem;
+    font-family: monospace;
+    margin: 10px auto;
+}
+address{
+    font-size: xx-large;
+    font-family: monospace;
+    text-transform: uppercase;
+    border-bottom: 3px solid wheat;
+    text-shadow: 2px 1px 1px rgb(35, 35, 47), 2px 1px 1px rgb(219, 12, 12) , 2px 1px 1px black, 2px 1px 1px blue;
+}
+.temOther{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    width: 260px;
+}
+.temOther div{
+    margin: 10px;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.temOther div p{
+    font-size: medium;
+}

@@ -1,0 +1,428 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 2px 10px 2px rgba(161, 157, 157, 0.682);
+    outline: 2px solid rgba(99, 99, 97, 0.6);
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.nav2{
+    display: none;
+}
+.logo{
+    padding-left: 1vmax;
+    align-content: center;
+    
+}
+.imgLogo{
+   
+    width: 50px;
+    height: 30px;
+    box-shadow: 2px 2px 2px rgba(99, 99, 97, 0.6);
+    border-radius: 20% 10%;
+    margin: 10px;
+}
+
+.navLink{
+    display: flex;
+    justify-content: flex-start;
+}
+.navLink li{
+    box-sizing: border-box;
+    padding: 10px ;
+    list-style: none;
+    font-size: large;
+    margin-right: 10px;
+}
+
+/* MAin  page Start */
+#mainP{
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 0%  5px auto ; 
+    padding: 100px 10px ;
+}
+.content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    max-width: 500px;
+    text-align: justify;
+    padding: 2px;
+    color:white;
+    text-transform: capitalize;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px red , 2px 2px 2px green, 2px 2px 2px darkorange, 2px 2px 2px firebrick, 2px 2px 2px darkblue;
+}
+@keyframes slide {
+    from {
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-10%);
+    }
+    to {
+        
+        transform: translateX(0);
+    }
+}
+@keyframes colAni {
+    0% {
+       
+        text-shadow: 
+            2px 2px 2px rgb(115, 189, 11),
+            2px 2px 2px rgb(164, 14, 223),
+            2px 2px 2px rgb(48, 249, 229),
+            2px 2px 2px rgb(85, 26, 109),
+            2px 2px 2px rgb(5, 5, 49);
+        
+    }
+    10% {
+        
+        text-shadow: 
+            2px 2px 2px rgb(189, 89, 11),
+            2px 2px 2px rgb(64, 64, 223),
+            2px 2px 2px rgb(48, 189, 229),
+            2px 2px 2px rgb(85, 89, 109),
+            2px 2px 2px rgb(5, 5, 89);
+    }
+    20% {
+        
+        text-shadow: 
+            2px 2px 2px rgb(115, 189, 111),
+            2px 2px 2px rgb(164, 14, 223),
+            2px 2px 2px rgb(48, 249, 229),
+            2px 2px 2px rgb(85, 26, 109),
+            2px 2px 2px rgb(5, 5, 49);
+    }
+    30% {
+       
+        text-shadow: 
+            2px 2px 2px rgb(115, 189, 11),
+            2px 2px 2px rgb(64, 64, 223),
+            2px 2px 2px rgb(48, 249, 229),
+            2px 2px 2px rgb(85, 26, 109),
+            2px 2px 2px rgb(5, 5, 49);
+    }
+    40% {
+        
+        text-shadow: 
+            2px 2px 2px rgb(115, 189, 11),
+            2px 2px 2px rgb(164, 14, 223),
+            2px 2px 2px rgb(48, 249, 229),
+            2px 2px 2px rgb(85, 26, 109),
+            2px 2px 2px rgb(5, 5, 49);
+    }
+    50% {
+       
+        text-shadow: 
+            2px 2px 2px rgb(115, 189, 11),
+            2px 2px 2px rgb(164, 14, 223),
+            2px 2px 2px rgb(48, 249, 229),
+            2px 2px 2px rgb(85, 26, 109),
+            2px 2px 2px rgb(5, 5, 49);
+    }
+    60% {
+        
+        text-shadow: 
+            2px 2px 2px rgb(115, 189, 11),
+            2px 2px 2px rgb(164, 14, 223),
+            2px 2px 2px rgb(48, 249, 229),
+            2px 2px 2px rgb(85, 26, 109),
+            2px 2px 2px rgb(5, 5, 49);
+    }
+    70% {
+       
+        text-shadow: 
+            2px 2px 2px rgb(115, 189, 11),
+            2px 2px 2px rgb(164, 14, 223),
+            2px 2px 2px rgb(48, 249, 229),
+            2px 2px 2px rgb(85, 26, 109),
+            2px 2px 2px rgb(5, 5, 49);
+    }
+    80% {
+        
+        text-shadow: 
+            2px 2px 2px rgb(115, 189, 11),
+            2px 2px 2px rgb(164, 14, 223),
+            2px 2px 2px rgb(48, 249, 229),
+            2px 2px 2px rgb(85, 26, 109),
+            2px 2px 2px rgb(5, 5, 49);
+    }
+    100% {
+        /* Resetting the color to black at 100% */
+        text-shadow: 
+            2px 2px 2px rgb(115, 189, 11),
+            2px 2px 2px rgb(164, 14, 223),
+            2px 2px 2px rgb(48, 249, 229),
+            2px 2px 2px rgb(85, 26, 109),
+            2px 2px 2px rgb(5, 5, 49);
+    }
+}
+@keyframes chBg {
+    0%{
+        background-color: white;
+    }
+    25%{
+        background-color: aliceblue;
+    }
+    100%{
+        background-color: rgb(240, 244, 244);
+    }
+}
+#MM{
+    background-color: white;
+    animation: chBg 20s ease-out infinite ;
+}
+.ParaContent{
+    font-size: xx-large;
+    animation: colAni 100ms ease-in-out infinite, slide 2s ease-in forwards;
+}
+#img img{
+    
+    width: 400px;
+    margin: 10px;
+    box-shadow: 1px 11px 10px  rgba(40, 44, 46, 0.653);
+    padding: 5px;
+    border-radius: 6px ;
+}
+/* add  */
+.GodImg{
+    width: 250px;
+    height: 270px;
+    border-radius: 30px 20px ;
+    box-shadow: 6px 6px 3px rgb(40, 39, 36);
+    margin: 10px;
+    
+}
+.InfoDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center ;
+    margin: 0px 10%;
+    text-align: center;
+}
+.InfoDiv h2{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-shadow: 1px 2px 1px gray;
+}
+.HdivGo{
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+.HdivGo div{
+    border-bottom: 3px solid black;
+    display: inline-block;
+    width: 300px;
+}
+/* mandir info */
+.MnChar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.Char11 {
+    width: 250px;
+    height: 200px;
+}
+.Chardivv{
+    width: 250px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    box-shadow: 3px 3px 2px black;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.Chardivv p{
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: larger;
+    font-style: oblique;
+    
+}
+.Chardivv h2{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: cursive;
+    text-shadow: 2px 2px 1px rgb(150, 113, 113);
+    border-bottom: 2px solid black;
+    padding: 7px;
+    border-radius: 3px;
+}
+.HdevPa{
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+    margin: 10px auto;
+
+}
+.HdevPa  div {
+    border-bottom: 3px solid black;
+    display: inline-block;
+    width: 300px;
+   
+}
+/* footer create  */
+
+.Footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(156, 151, 151, 0.748);
+}
+
+.footerLo{
+    border-right: 3px solid black;
+    font-family: monospace;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    padding-right: 20px;
+   
+}
+.footerLo h2, p{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+
+.ImgFoo{
+    width: 200px;
+    border-radius: 40px;
+}
+.FooterList{
+    border-right: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 20px;
+    margin: 10px;
+    
+}
+.FooterList h2{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+}
+.FooterList li{
+    text-align: center;
+    list-style: none;
+    font-size: larger;
+    font-family: monospace;
+    padding: 10px;
+}
+.Address{
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+    padding: 19px;
+    border-right: 3px solid black;
+    padding-right: 10px;
+}
+.Address li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 8px;
+}
+.Address span{
+    font-size: 30px;
+    padding: 10px;
+}
+@media screen and (max-width:500px) {
+    #img img{
+       max-height: 400px;
+       max-width: 350px;
+    }
+    #img{
+        margin-top: 10px;
+    }
+    .content{
+        font-size: larger;
+        padding:10px;
+    }
+    .HdivGo{
+        font-size: larger;
+    }
+    .HdivGo div{
+        width: 200px;
+    }
+    .HdevPa p {
+        font-size: large;
+    }
+}
+@media screen and (max-width: 500px) {
+    .nav{
+        display: none;
+    }
+    .header{
+        border: none;
+        
+    }
+    .nav2{
+        display: block;
+        padding: 10px;
+    }
+    .logo2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .threeDot{
+        border: none;
+       background-color: white;
+       font-size: x-large;
+    }
+    .threeclose{
+        border: none;
+        background-color: white;
+        font-size: x-large;
+        display: none;
+    }
+    .navLink2 li{
+        display: flex;
+        flex-flow: column;
+        font-size: larger;
+        padding: 10px;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    li:hover{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration-line: underline;
+
+    }
+    .hide{
+        display: none;
+    }
+  }
